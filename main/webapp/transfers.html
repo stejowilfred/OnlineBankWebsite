@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Transfers</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="ViewAccDetails.html">Home</a></li>
+				<li><a href="accounts.html">Accounts</a></li>
+				<li><a href="transfers.html">Transfers</a></li>
+				<li><a href="payments.html">Payments</a></li>
+				<!-- Add more navigation links based on your website structure -->
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section class="transfer-form">
+			<h1>Transfer Funds</h1>
+			<form>
+				<div class="form-group">
+					<label for="fromAccount">From Account:</label>
+					<select id="fromAccount">
+						<option value="checking">Checking Account</option>
+						<option value="savings">Savings Account</option>
+						<!-- Add more account options -->
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label for="toAccount">To Account:</label>
+					<select id="toAccount">
+						<option value="external">External Account</option>
+						<option value="internal">Internal Account</option>
+						<!-- Add more account options -->
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label for="amount">Amount:</label>
+					<input type="number" id="amount" placeholder="Enter amount">
+				</div>
+
+				<button type="submit">Transfer</button>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Your Bank. All Rights Reserved.</p>
+	</footer>
+</body>
+
+</html>

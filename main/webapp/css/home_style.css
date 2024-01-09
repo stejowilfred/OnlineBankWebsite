@@ -1,0 +1,134 @@
+@charset "ISO-8859-1";
+
+h1 {
+	text-align: center;
+}
+
+header {
+	background-color: darkblue;
+	padding: 20px;
+}
+
+footer {
+	bottom: 0;
+	width: 100%;
+	background-color: darkgray;
+	padding: 10px;
+}
+
+.Login {
+	justify-items: right;
+
+}
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn,
+.home,
+.login {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	/* Important for vertical align on mobile phones */
+	margin: 0;
+	/* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn,
+.home:hover,
+.login:hover {
+	background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.img {
+	height: 25px;
+	width: 25px
+}
+
+#div1,
+#div2,
+#div3 {
+	/*background-color: red;
+		margin: 0% 80% 0% 0%;
+		width: 20%;
+		height: auto;
+		display: inline-block;*/
+	height: auto;
+	background-color: #ececec;
+	border: 1px solid #636363;
+	margin: 7px 0px 0px 15px;
+	display: inline-block;
+}
+
+#div1,
+#div3 {
+	width: 300px;
+	background-image: url(bank.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+	/*background-color: blue;
+		margin:-40% 20% 0% 21%;
+		width: 59%;
+		height: auto;
+		display: inline-block;*/
+}
+
+#div2 {
+	width: 670px;
+	/*background-color: gray;
+		margin:-12% 0% 2% 81%;
+		width: 20%;
+		height: auto;
+		display: inline-block;*/
+}
+
+#wrapper div {
+	vertical-align: top;
+}
+
+body {
+	background-image: url(bank2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
